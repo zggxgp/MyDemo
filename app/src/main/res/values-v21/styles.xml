@@ -1,0 +1,7 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppMateriaTheme" parent="@android:style/Theme.Material">
+    </style>
+
+</resources>

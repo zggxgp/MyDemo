@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/testlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.huangzhao.testwegiht.MainActivity">
+
+    <!--<RadioButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="?android:attr/selectableItemBackground"-->
+        <!--android:text="fsafasdfaf"-->
+        <!--android:visibility="gone"-->
+        <!--android:button="@null"-->
+        <!--android:textSize="80dp"/>-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="400dp"-->
+        <!--android:layout_height="400dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:clickable="true">-->
+
+
+    <!--<TextView-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:clickable="true"-->
+        <!--android:background="@drawable/ripple"-->
+        <!--android:layout_width="400dp"-->
+        <!--android:layout_height="400dp" />-->
+
+    <!--</RelativeLayout>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/qrcode"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"/>-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="400dp"-->
+        <!--android:layout_height="400dp"-->
+        <!--android:background="@drawable/price_item_shape"></RelativeLayout>-->
+
+    <!--<autolayout.AutoRelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:clickable="true"-->
+        <!--android:background="@drawable/ripple"-->
+        <!--android:layout_height="100dp">-->
+
+        <!--<TextView-->
+            <!--android:clickable="true"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:singleLine="true"-->
+            <!--android:text="Hello World! Hello World! Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!" />-->
+    <TextView
+        android:id="@+id/test"
+        android:visibility="gone"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="测试移动"/>
+
+    <com.example.huangzhao.testwegiht.HideTitleLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#e5ba84">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#55bda8">
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/test_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+    </com.example.huangzhao.testwegiht.HideTitleLayout>
+
+    <testviewtouch.ViewGroupOne
+        android:background="#003399"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <testviewtouch.ViewGroupTwo
+            android:background="#00FF00"
+            android:layout_width="500dp"
+            android:layout_height="500dp">
+
+            <testviewtouch.ViewA
+                android:background="#FFB90F"
+                android:layout_width="300dp"
+                android:layout_height="300dp" />
+        </testviewtouch.ViewGroupTwo>
+    </testviewtouch.ViewGroupOne>
+
+    <!--</autolayout.AutoRelativeLayout>-->
+
+</RelativeLayout>
