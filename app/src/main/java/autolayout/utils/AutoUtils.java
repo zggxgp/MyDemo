@@ -2,7 +2,7 @@ package autolayout.utils;
 
 import android.view.View;
 
-import com.example.huangzhao.testwegiht.R;
+import com.example.huangzhao.testweight.R;
 
 import autolayout.AutoLayoutInfo;
 import autolayout.attr.Attrs;

@@ -1,4 +1,4 @@
-package com.example.huangzhao.testwegiht;
+package com.example.huangzhao.testweight;
 
 /**
  * copy from {@link com.facebook.csslayout.FloatUtil}

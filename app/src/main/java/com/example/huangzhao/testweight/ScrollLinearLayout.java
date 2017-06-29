@@ -1,4 +1,4 @@
-package com.example.huangzhao.testwegiht;
+package com.example.huangzhao.testweight;
 
 import android.animation.ValueAnimator;
 import android.content.Context;

@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.huangzhao.testwegiht.R;
+import com.example.huangzhao.testweight.R;
 
 import java.util.ArrayList;
 import java.util.List;

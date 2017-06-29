@@ -1,4 +1,4 @@
-package com.example.huangzhao.testwegiht;
+package com.example.huangzhao.testweight;
 
 import android.app.Activity;
 import android.graphics.Bitmap;

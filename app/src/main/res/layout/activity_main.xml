@@ -4,7 +4,7 @@
     android:id="@+id/testlayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.huangzhao.testwegiht.MainActivity">
+    tools:context="com.example.huangzhao.testweight.MainActivity">
 
     <!--<RadioButton-->
         <!--android:layout_width="wrap_content"-->
@@ -62,7 +62,7 @@
         android:layout_height="50dp"
         android:text="测试移动"/>
 
-    <com.example.huangzhao.testwegiht.HideTitleLayout
+    <com.example.huangzhao.testweight.HideTitleLayout
         android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -87,7 +87,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"></ListView>
 
-    </com.example.huangzhao.testwegiht.HideTitleLayout>
+    </com.example.huangzhao.testweight.HideTitleLayout>
 
     <testviewtouch.ViewGroupOne
         android:background="#003399"
